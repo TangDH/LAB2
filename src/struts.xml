@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+   "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+   "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+<constant name="struts.devMode" value="true" />
+<constant name="struts.i18n.encoding" value="utf-8"/>
+
+   <package name="library" namespace="/" extends="struts-default">
+		<action name = "query" class = "library.Main" method="execute">
+			<result name="success">/next.jsp</result>
+			<result name="error">/notfound.jsp</result>
+		</action>
+		<action name="detail" class = "library.Main" method="search">
+			<result>/detail.jsp</result>
+		</action>
+		<action name="home">
+			<result>/index.jsp</result>
+		</action>
+		<action name="delete" class = "library.Main" method="delete">
+			<result>/delsuccess.jsp</result>
+		</action>
+		<action name="toupdate" class = "library.Main" method="toupdate">
+			<result>/update.jsp</result>
+		</action>
+		<action name="update" class = "library.Main" method="update">
+			<result name="success">/updsuccess.jsp</result>
+			<result name="error">/updfailed.jsp</result>
+		</action>
+		<action name="add">
+			<result>/addbook.jsp</result>
+		</action>
+		<action name="addbook" class = "library.Main" method="addbook">
+			<result name="success">/addsuccess.jsp</result>
+			<result name="error">/addauthor.jsp</result>
+			<result name="fail">/addfail.jsp</result>
+		</action>
+		<action name="addauthor" class="library.Main" method="addauthor">
+			<result name="success">/addsuccess.jsp</result>
+		
+		</action>
+		<action name="addauthor1" class="library.Main" method="addauthor">
+			<result name="success">/update.jsp</result>
+		</action>
+		
+   </package>
+</struts>

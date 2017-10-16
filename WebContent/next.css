@@ -1,0 +1,13 @@
+body{
+	background:url(index_background.jpg);
+	background-size=cover;
+}
+td{
+	color:#FFFFFF;
+	text-align:center;
+}
+a{ color:	#FFFFFF; text-decoration:none;}
+a:hover{ color:#F00; text-decoration:underline;}
+a:active{ color:	#FFFFFF;}
+.td{border:solid #add9c0; border-width:0px 1px 1px 0px; padding:10px 0px;}
+.table{border:solid #add9c0; border-width:1px 0px 0px 1px;}

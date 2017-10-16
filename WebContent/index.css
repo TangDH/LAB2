@@ -1,0 +1,13 @@
+body{
+	background:url(index_background.jpg);
+	background-size=cover;
+}
+h1 {
+	font-family: Georgia;
+	font-weight:bold;
+	color:#FFFFFF
+}
+h5 {
+	font-family: Georgia;
+	color:#FFFFFF
+}

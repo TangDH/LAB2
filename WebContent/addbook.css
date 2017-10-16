@@ -1,0 +1,10 @@
+body{
+	background:url(index_background.jpg);
+	background-size=cover;
+}
+div {
+	font-family: Georgia;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align=center;
+}
