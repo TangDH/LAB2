@@ -28,5 +28,5 @@ public class Tool {
 		System.out.println("initSQL:Success connect Mysql server!");  
 	    Statement stmt = connect.createStatement();
 	    return stmt;
-	}
+	}//dwqd
 }

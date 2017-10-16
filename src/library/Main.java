@@ -89,6 +89,7 @@ public class Main extends ActionSupport{
 		if(!rs.next()){
 			System.out.println("dwd");
 		}
+		//dwqd
 		String authorid=rs.getString("Author");
 		System.out.println(authorid);
 		stmt.executeUpdate("delete from book where ISBN=\""+ISBN+"\"");

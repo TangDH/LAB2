@@ -8,7 +8,7 @@ import javax.servlet.FilterConfig;
 import javax.servlet.ServletException; 
 import javax.servlet.ServletRequest; 
 import javax.servlet.ServletResponse; 
-
+//dqwd
 public class EncodingFilter implements Filter { 
     public void init(FilterConfig config) throws ServletException { 
     } 
